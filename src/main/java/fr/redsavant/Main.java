@@ -16,6 +16,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         instance = this;
         getLogger().info("CosAddon enabled !");
+        registerCommands();
     }
 
     @Override

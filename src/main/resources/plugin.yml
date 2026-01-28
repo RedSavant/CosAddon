@@ -1,6 +1,13 @@
-name: Plugin
+name: CosAddon
 version: 1.0.0
 api-version: '1.21'
 author: RedSavantMC
 main: fr.redsavant.Main
-#commands:
+commands:
+  info:
+    description: Get info of plugin
+    permission: cosaddon.lambda
+permission:
+  cossaddon.lambda:
+    description: A lambda player
+    default: true

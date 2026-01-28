@@ -1,11 +1,9 @@
 # CosAddon Plugin
 
----
 An addon for [HMCCosmetics](https://www.spigotmc.org/resources/hmccosmetics.100107/) created for TenshiMC.
 
 ## Features
 
----
 - Info Command
 - ...
 

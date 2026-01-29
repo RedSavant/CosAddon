@@ -2,7 +2,6 @@ package fr.redsavant;
 
 import fr.redsavant.commands.CommandInfo;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.util.Objects;
 
 public class Main extends JavaPlugin {
@@ -28,6 +27,5 @@ public class Main extends JavaPlugin {
         Objects.requireNonNull(getCommand("info")).setExecutor(new CommandInfo());
     }
     public void registerEvent() {
-
     }
 }

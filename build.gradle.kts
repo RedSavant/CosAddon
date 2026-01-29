@@ -12,10 +12,14 @@ repositories {
     maven("https://repo.papermc.io/repository/maven-public/") {
         name = "papermc-repo"
     }
+    maven("https://repo.hibiscusmc.com/releases") {
+        name = "hmcRepoReleases"
+    }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
+    compileOnly("com.hibiscusmc:HMCCosmetics:2.8.3")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 }
 
